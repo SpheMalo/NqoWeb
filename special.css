@@ -1,0 +1,36 @@
+form{
+    width: 40%;
+    padding: 30px;
+    border: 1px solid grey;
+    margin: 5px auto;
+    margin-top: 100px;
+}
+
+    
+
+td{
+    text-align: right;
+}
+body{
+     background-color:white;
+     border: 1px solid grey;
+     
+}
+h1{
+    background:white;
+    color: black;
+    font-family: agency fb;
+    padding: 25px;
+    border-radius: 4px;
+    font-size:60;
+    border: 1px solid grey;
+    margin: 5px;
+}
+ td.secondary{
+    font-family: agency fb;   
+ }
+ #error_msg{
+    font-family: agency fb;
+    font-size: 25px;
+    background-color: red;
+ }

@@ -1,0 +1,45 @@
+body{
+    background-image: url("file:///C:/xampp/htdocs/Webpage/nyc-aerial-skyline.jpg");
+    border: 1px solid grey;
+}
+h1{
+    background:white;
+    color: black;
+    font-family: agency fb;
+    padding: 25px;
+    border-radius: 4px;
+    font-size:60;
+    border: 1px solid grey;
+    margin: 5px;
+    
+
+}
+ul li a {
+    color: grey;
+   
+}
+
+ul li { list-style-type: none;   
+   display: inline-block;
+background: white;
+padding: 15px;
+display: inline;
+font-family: agency fb;
+font-size: 22px;
+ border-radius:3px;
+ border: 1px solid grey;
+ margin-left: 4px;
+
+   
+}
+p.secondary{
+       background:white;
+  margin:5px ;
+  color: black;
+  font-family: agency fb;
+  font-size: 30px;
+    border: 1px solid grey ;
+    border-radius: 3px;
+ 
+}
+

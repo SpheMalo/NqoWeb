@@ -42,4 +42,22 @@ p.secondary{
     border-radius: 3px;
  
 }
+#slider{
+    width: 720px;
+    height: 400px;
+    overflow: hidden;  
+}
+#slider .slides{
+  display: black;
+  width: 6000px;
+  height: 400px;
+  margin: 0;
+  padding: 0;   
+}
+#slider .slide{
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;  
+}
 

@@ -14,24 +14,7 @@ h1{
     
 
 }
-ul li a {
-    color: grey;
-   
-}
 
-ul li { list-style-type: none;   
-   display: inline-block;
-background: white;
-padding: 15px;
-display: inline;
-font-family: agency fb;
-font-size: 22px;
- border-radius:3px;
- border: 1px solid grey;
- margin-left: 4px;
-
-   
-}
 p.secondary{
        background:white;
   margin:5px ;
@@ -42,22 +25,11 @@ p.secondary{
     border-radius: 3px;
  
 }
-#slider{
-    width: 720px;
-    height: 400px;
-    overflow: hidden;  
+div.navbar{
+    background:grey;
+    border-radius:0px;
+    margin:0px;
+    padding:0px;
 }
-#slider .slides{
-  display: black;
-  width: 6000px;
-  height: 400px;
-  margin: 0;
-  padding: 0;   
-}
-#slider .slide{
-    float: left;
-    list-style-type: none;
-    width: 720px;
-    height: 400px;  
-}
+
 

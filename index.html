@@ -2,8 +2,12 @@
 <html>
  <head>
 <title>HOME</title>
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+
 <script type="text/javascript" src="javascripts/jquery-3.1.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="deco.css"/>
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="bootstrap/bootstrap.js"></script> 
 <script language="javascript">
  //this is meant to be for the slideshow,but for some reason it doesn't show up
  //on my browser....it shows up on the Komodo tab,but it doesn't do what it's supposed to do.
@@ -29,12 +33,29 @@ setInterval(function(){
 });
 </script>
  </head>
-<h1>.COOP.</h1>
+ <h1>.COOP.</h1>
+ <!----I TRIED MAKING A NAVIGATION BAR,ITS NOT COMPLETE THOUGH--->
+<nav class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+  <button type="button" class="navbar-toggle"data-toggle="collapse"data target="navbar-collapse">
+   <span class="sr-only">Toggle navigation</span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand"href="#">.COOP.</a>
+  <div class="navbar-collapse collapse">
+   <ul class="nav navbar-nav navbar-right">
+    <li class="active"><a href="#">.HOME.</a></li>
+   </ul>
+  </div>
+ </div>
+</nav>
   <ul>
       <li><a href="index.html">HOME</a></li>
       <li><a href="about.html">ABOUT</a></li>
        <li><a href="contact.html">CONTACT</a></li>
-       
+      
         
     </ul>
      <p class="secondary">

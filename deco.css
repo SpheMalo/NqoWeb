@@ -31,5 +31,11 @@ div.navbar{
     margin:0px;
     padding:0px;
 }
+nav.navbar{
+     background:grey;
+    border-radius:0px;
+    margin:0px;
+    padding:0px;
+}
 
 
